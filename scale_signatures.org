@@ -1,0 +1,24 @@
+#+title: Scale signatures
+#+date: <2015-08-26 Wed>
+
+* Key signatures
+
+#+TBLNAME: Scales with sharp key signatures
+|---+-----------+----+----+----+----+----+----+----+---+---------------|
+|   | Major key |    |    |    |    |    |    |    |   | No. of sharps |
+|---+-----------+----+----+----+----+----+----+----+---+---------------|
+| / |           | <  |    |    |    |    |    |    | > |               |
+| # | C major   | C  | D  | E  | F  | G  | A  | B  | C |             0 |
+| # | G major   | G  | A  | B  | C  | D  | E  | F# | G |             1 |
+| # | D major   | D  | E  | F# | G  | A  | B  | C# | D |             2 |
+| # | A major   | A  | B  | C# | D  | E  | F# | G# | A |             3 |
+| # | E major   | E  | F# | G# | A  | B  | C# | D# | E |             4 |
+| # | B major   | B  | C# | D# | E  | F# | G# | A# | B |             5 |
+| # | F# major  | F# | G# | A# | B  | C# | D# | E# | F |             6 |
+| # | C# major  | C# | D# | E# | F# | G# | A# | B# | C |             7 |
+|---+-----------+----+----+----+----+----+----+----+---+---------------|
+
+#+BEGIN_SRC ditaa :file tst.png
+
+
+#+END_SRC

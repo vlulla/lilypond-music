@@ -1,0 +1,99 @@
+ 1. Lilypond.app is in the ~/Applications folder.  To run the lilypond command use
+    the following command-line option.
+
+    ~/Applications/Lilypond.app/Content/Resources/bin/lilypond tst.ly
+
+    In .vimrc set the following:
+    autocmd BufRead,BufWinEnter,BufNewFile *.ly set makeprg=~/Applications/Lilypond.app/Content/Resources/bin/lilypond\ \"%\"
+
+ 2. Lilypond file is structured like this:
+    \version "2.18.2"
+    \header { }
+    \book {
+      \score { 
+         ... compund music expression %%% ALL MUSIC GOES HERE 
+         \layout { } % how to layout music in pdf
+         \midi { } % properties for midi output
+      }
+    }
+
+    See:
+    http://lilypond.org/doc/v2.18/Documentation/learning/introduction-to-the-lilypond-file-structure
+
+ 3. Every \book block creates a separate output file (e.g. pdf or midi)
+    Every \score block is a separate chunk of music within \book block.
+    Every \layout block affects the \score or \book block in which it appears.
+
+    \layout, \header, \midi blocks can occur outside the \score block!
+
+ 4. A \score block must contain _exactly one_ music expression.
+
+ 5. Use << ... >> to show simultaneous music.  It is needed when there are
+    multiple staves!  For e.g.
+
+    \score {
+      <<
+        \new Staff = "singer" << \new Voice = "vocal" { c'1 } >>
+        \new PianoStaff = "piano" <<
+          \new Staff = "upper" { c'1 }
+          \new Staff = "lower" { c'1 }
+        >>
+      >>
+      \layout { }
+    }
+
+ 6. Different bracket types and their functions
+
+    Bracket type          Function
+    { ... }           Encloses a sequential segment of music
+    < ... >           Encloses the notes of a chord
+    << ... >>         Encloses simultaneous music expressions
+    ( ... )           Marks the start and end of slur
+    \( ... \)         Marks the start and end of phrasing slur
+    [ ... ]           Marks the start and end of a manual beam
+
+ 7. Comments start with %.  Comment blocks are %{ ... %}
+
+ 8. In Lilypond lowercase letters a through g represent note names and are engraved
+    in the octave below middle C.  Hence it is customary to identify middle C with c' .  
+    Also see, https://en.wikipedia.org/wiki/C_%28musical_note%29
+
+ 9. Some handy snippets
+    See https://gist.github.com/tockrock/721686/e4df8e03ccc86eeda2fb96a20a1ca36d29066e05
+
+    segno = \mark \markup { \musicglyph #"scripts.segno" }
+    segnot =     ^\markup { \musicglyph #"scripts.segno" }
+    coda =  \mark \markup { \musicglyph #"scripts.coda" }
+    codat =      ^\markup { \musicglyph #"scripts.coda" }
+
+    dsh = \mark \markup { \italic "D.S."} % D.S. Helper
+    dch = \mark \markup { \italic "D.C."} % D.C. Helper
+    dsafh = \mark \markup { \italic "D.S. al Fine"} % D.S. Al Fine Helper
+    dcafh = \mark \markup { \italic "D.C. al Fine"} % D.C. Al Fine Helper
+
+10. All Major scalles follow this exact pattern: W W H W W W H.
+    W = whole, and H = half step
+
+11. If you have to notate a pitch that has to be played in rapid succession (for e.g.,
+    see the star_wars.ly file) that is called ``tremolo''.  You can typeset it
+    by adding a :N after the note name in lilypond.  Try to typeset the following:
+
+      c2:8 c:32 c: c:
+
+    If N is omitted after the colon it uses the last value.
+
+12. The name of variable must have *alphabetic characters ONLY*, no numbers, 
+    underscores, or dashes.
+
+    Variables must be defined *BEFORE* the main music expression.
+
+13. Eighth notes in 3/4 time are beamed as full measure by default.  To beam eighth
+    notes in 3/4 time on the beat, reset beamExceptions.
+
+    \set Timing.beamExceptions = #'() % sets beam(1 1 1)
+
+    See "korean_folk_song_variants.ly" for example of this usage.
+
+---------------------------------------
+Created: 2015.09.23 21:35:18-0400
+Last modified: 2016.08.31 00:31:12-0400
