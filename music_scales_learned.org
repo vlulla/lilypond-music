@@ -1,0 +1,21 @@
+#+TITLE: Music scales
+#+AUTHOR: Vijay Lulla
+#+EMAIL: vijaylulla@gmail.com
+
+* Major scales
+|----------+----+---+----+-----+----+----+----+----+----+----+----+------+----+----+---+----+--------+-------+--------------------------------------------|
+| Name     |    |   |    | UP  |    |    |    |    |    |    |    | Down |    |    |   |    | Sharps | Flats | Notes                                      |
+|----------+----+---+----+-----+----+----+----+----+----+----+----+------+----+----+---+----+--------+-------+--------------------------------------------|
+| /        | <  |   |    |     |    |    |    | >  | <  |    |    |      |    |    |   | >  |      < |     < | <                                           |
+| A major  | A  | B | C# | D   | E  | F# | G# | A  | A  | G# | F# | E    | D  | C# | B | A  |      3 |       |                                            |
+| D major  | D  | E | F# | G   | A  | B  | C# | D  | D  | C# | B  | A    | G  | F# | E | D  |      2 |       |                                            |
+| G major  | G  | A | B  | C   | D  | E  | F# | G  | G  | F# | E  | D    | C  | B  | A | G  |      1 |       |                                            |
+| C major  | C  | D | E  | F   | G  | A  | B  | C  | C  | B  | A  | G    | F  | E  | D | C  |        |       | According to Heifetz a musician should     |
+|          |    |   |    |     |    |    |    |    |    |    |    |      |    |    |   |    |        |       | be able to play this at a moment's notice! |
+| F major  | F  | G | A  | eBb | C  | D  | E  | F  | F  | E  | D  | C    | Bb | A  | G | F  |        |     1 |                                            |
+| Bb major | Bb | C | D  | Eb  | F  | G  | A  | Bb | Bb | A  | G  | F    | Eb | D  | C | Bb |        |     2 |                                            |
+| Eb major | Eb | F | G  | Ab  | Bb | C  | D  | Eb | Eb | D  | C  | Bb   | Ab | G  | F | Eb |        |     3 |                                            |
+|----------+----+---+----+-----+----+----+----+----+----+----+----+------+----+----+---+----+--------+-------+--------------------------------------------|
+
+
+* Minor scales
