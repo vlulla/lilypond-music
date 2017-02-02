@@ -93,7 +93,12 @@
     \set Timing.beamExceptions = #'() % sets beam(1 1 1)
 
     See "korean_folk_song_variants.ly" for example of this usage.
+    
+14. Set the property showLastLength = R1*8 to show just the last 8 measures when
+    you're typesetting.  This makes it easier to compile and debug the process.
+    See http://lilypond.org/doc/v2.18/Documentation/notation/skipping-corrected-music
 
+15. s1 (or s2 or s3 ...) can be used as a spacer note.
 ---------------------------------------
 Created: 2015.09.23 21:35:18-0400
-Last modified: 2016.08.31 00:31:12-0400
+Last modified: 2017.02.02 01:31:32-0500
