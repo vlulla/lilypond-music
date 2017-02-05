@@ -157,5 +157,7 @@ voiceconsts = {
         }
       }
     }
+    \layout { }
+    \midi { }
   }
 }
