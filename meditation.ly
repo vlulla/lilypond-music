@@ -80,6 +80,8 @@ voiceconsts = {
         }
       }
     }
+    \layout{}
+    \midi{}
   }
 }
 
