@@ -5,6 +5,11 @@
   subtitle = "1. Allegro"
   enteredby = "Vijay Lulla (2017.01.19)"
 }
+
+%% arrows to annotate sharp/flats!
+downarrow=\markup{\combine \draw-line #'(0 . 2) \arrow-head #Y #DOWN ##f}
+uparrow=\markup{\combine \draw-line #'(0 . -2) \arrow-head #Y #UP ##f }
+
 \layout {
   \context {
     \Score
@@ -58,22 +63,22 @@ voiceconsts = {
           fis'8 e4 d8 cis8 b16 a b4 |
           a4 a ais ais |
           b8\p fis' fis fis fis fis fis fis |
-          g8 g gis gis a a ais ais |
-          b1( |
-          b1)( |
-          b16) cis b cis b4( b16) cis b cis b4( |
-          b16) cis b cis b cis b cis b2 |
-          fis8 fis fis e16 fis g4. g16 fis |
+          g8 g gis gis a^"Shift 3" a-1 ais-2^\downarrow ais-2^\downarrow |
+          b1-2( |
+          b1-2)( |
+          b16-2) cis-3^\uparrow b-2 cis-3^\uparrow b4-2( b16-2) cis-3 b-2 cis-3 b4-2( |
+          b16-2) cis-3^\uparrow b-2 cis-3 b-2 cis-3 b-2 cis-3 b2-2 |
+          fis8^"Shift 1" fis fis e16 fis g4. g16 fis |
           e8 e e d16 e fis4. fis16 g |
           a8 a a a16 g fis8 fis fis fis16 g |
           a8 a a a16 g fis8 fis fis fis16 g |
-          a8 a a g16 fis e16 a, b a cis b d cis |
+          a8 a a g16 fis e16\downbow a, b a cis b d cis |
           e16 d fis e g fis a g a, g b a cis b d cis |
-          e16 d fis e g fis a g fis d e d fis d e d |
-          g16 d e d g d e d a' d, e d a' d, e d |
-          b'8 cis d4 d16 a d a b a d a |
-          b16 a d a b a d a d8 d, e4 |
-          a8\ff g16 fis g8 a b8 a4 d,8 |
+          e16^"Shift 3" d-1 fis-3 e-2 g-4 fis-3^\uparrow a-1 g-4 fis-3 d-1 e-2 d-1 fis-3 d-1 e-2 d-1 |
+          g16-4 d-1 e-2 d-1 g-4 d-1 e-2 d-1 a'-1 d,-1 e-2 d-1 a'-1 d,-1 e-2 d-1 |
+          b'8-2 cis-3^\uparrow d4-4 d16-4\downbow a-1 d-4 a-1 b-2 a-1 d-4 a-1 |
+          b16-2 a-1 d-4 a-1 b-2 a-1 d-4 a-1 d8-4 d,-1 e4-2 |
+          a8\ff^"Shift 1" g16 fis g8 a b8 a4 d,8 |
           a'8 g16 fis g8 a b8 a4 d,8 |
           b'8 a4 g8 fis e16 d e4 |
           d4. d8 a'8 g16 fis g8 a|
