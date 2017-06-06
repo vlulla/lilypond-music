@@ -99,6 +99,16 @@
     See http://lilypond.org/doc/v2.18/Documentation/notation/skipping-corrected-music
 
 15. s1 (or s2 or s3 ...) can be used as a spacer note.
+
+16. Use ! or ? to show natural/sharp position of the pitch!  This is is especially
+    useful if there's a natural note amidst a whole bunch of sharp notes!  For e.g.,
+    if there's a f-natural in the d-major key it makes sense to explicitly show the
+    natural sign using either ! or ? .  Lilypond does this automatically but sometimes
+    extra notation is needed to provide reminders to musicians, especially novices
+    like me!  
+
+    The differene between ! and ? is that the natural/sharp sign is adorned inside 
+    parenthesis when ? is used.
 ---------------------------------------
 Created: 2015.09.23 21:35:18-0400
-Last modified: 2017.02.02 01:31:32-0500
+Last modified: 2017.06.06 14:35:11-0400
