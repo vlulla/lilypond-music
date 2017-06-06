@@ -37,7 +37,7 @@ voiceconsts = {
           \voiceconsts
           \time 2/2
           \clef treble
-          \set Score.markFormatter = #format-mark-circle-letters
+          \set Score.markFormatter = #format-mark-circle-alphabet
           d8-.\ff d-. d4-. d8-. d8-. d4-. | 
           fis4-. e-. d4.( cis8) |
           b8( ais b cis) d4-. e4-. |

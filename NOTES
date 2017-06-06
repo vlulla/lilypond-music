@@ -109,6 +109,12 @@
 
     The differene between ! and ? is that the natural/sharp sign is adorned inside 
     parenthesis when ? is used.
----------------------------------------
-Created: 2015.09.23 21:35:18-0400
-Last modified: 2017.06.06 14:35:11-0400
+
+17. The letter 'I' is skipped for reherasal marks and this is in accordance with
+    engraving traditions!! 
+    http://lilypond.org/doc/v2.18/Documentation/notation/bars#rehearsal-marks
+    To include 'I' in rehearsal marks use one of the following commands:
+
+    \set Score.markFormatter = #format-mark-alphabet
+    \set Score.markFormatter = #format-mark-box-alphabet
+    \set Score.markFormatter = #format-mark-circle-alphabet
