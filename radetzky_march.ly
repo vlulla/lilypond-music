@@ -93,7 +93,7 @@ voiceconsts = {
           d4-.->\f d'4-.-> d4-.-> r4^\markup{\italic "Fine"} \bar"|."
           \break
           \mark\default e2.\f b4-. | % measure 53
-          gis4-. e4-. b'4-. gis4-. |
+          gis4-. e4-. b'4-. gis4^\uparrow-. |
           e'4 e,8-. e8-. e4-. e4-. |
           e4-.\> e4-. e4-. e4-. |
           e8(\p cis'8) cis2 e,4-. |
@@ -103,7 +103,7 @@ voiceconsts = {
           d8( gis8) b2( a4-.) |
           \tuplet 3/2 { gis8( a8 gis8 } fis4-.) fis4-. fis4-. |
           e8( a8 cis4-.) cis4-. cis4-. |
-          \mark\default cis,?2. e4-. | % measure 64
+          \mark\default cis,?2.^\uparrow e4-. | % measure 64
           e8( cis'8) cis2 e,4-. |
           e8( cis'8) cis2 d,4-. |
           e8( cis'8) cis4-. cis4-. cis4-. | 
@@ -115,7 +115,7 @@ voiceconsts = {
           b8( d8) gis2-> fis4-. |
           \tuplet 3/2 {e8( fis8 e8)} d4-. d4-. d4-. |
           cis8( e8 a4-.) a4-. a4-. |
-          a,2. b,8( cis?8) |
+          a,2. b,8( cis?8^\uparrow) |
           d8( gis8) b2( a4-.) |
           \tuplet 3/2 {gis8( a8 gis8} fis4-.) fis4-. fis4-. |
           a8( cis8 e2) d8-. cis8-. |
@@ -123,7 +123,7 @@ voiceconsts = {
           \mark\default e8(\p cis'8) cis2 e,4-. |
           e8(\p cis'8) cis2 d,4-. |
           e8( a8 cis4-.) cis4-. cis4-. |
-          cis2. b,8( cis8) |
+          cis2. b,8( cis8^\uparrow) |
           d8( gis8) b2( a4-.) | % measure 85
           \tuplet 3/2 {gis8( a8 gis} fis4-.) fis4-. fis4-. |
           e8( a8 cis4-.) d,8( gis8 b4-.) |
