@@ -36,7 +36,7 @@ voiceconsts = {
           \time 3/4
           \clef treble
           \set Score.markFormatter = #format-mark-circle-alphabet
-          \partial 4 g,4\p\downbow |
+          \partial 4 g,4\p\upbow |
           e'2. |
           e2. |
           e2.( |

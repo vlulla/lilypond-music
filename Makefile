@@ -2,7 +2,7 @@
 
 LILYPOND = /Users/vijay/Applications/Lilypond.app/Contents/Resources/bin/lilypond
 
-all: tst.pdf
+all:
 
 %.pdf: %.ly
 	$(LILYPOND) $<

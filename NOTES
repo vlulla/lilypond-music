@@ -118,3 +118,10 @@
     \set Score.markFormatter = #format-mark-alphabet
     \set Score.markFormatter = #format-mark-box-alphabet
     \set Score.markFormatter = #format-mark-circle-alphabet
+
+18. The BarNumber.break-visibility property, in Score context, permits printing bar
+    numbers at places other than the start of line.  This property takes three values
+    which may be set to #t or #f indicating visibility.  The order of the three values
+    is: end-of-line, middle-of-line, and beginning-of-line.
+
+    \override Score.BarNumber.break-visibility = ##(#t #t #t) %% all bar numbers visible!
