@@ -125,3 +125,8 @@
     is: end-of-line, middle-of-line, and beginning-of-line.
 
     \override Score.BarNumber.break-visibility = ##(#t #t #t) %% all bar numbers visible!
+
+19. Use barnumbers for mark formatting!
+    \set Score.markFormatter = #format-mark-barnumbers
+    \set Score.markFormatter = #format-mark-box-barnumbers
+    \set Score.markFormatter = #format-mark-circle-barnumbers
