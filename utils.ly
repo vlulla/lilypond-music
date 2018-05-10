@@ -1,6 +1,6 @@
 %% http://lilypond.org/doc/v2.18/Documentation/notation/graphic
-downarrow=\markup{\combine \draw-line #'(0 . 2) \arrow-head #Y #DOWN ##t}
-uparrow=\markup{ \combine \draw-line #'(0 . -2) \arrow-head #Y #UP ##t }
+downarrow=\markup{\combine \draw-line #'(0 . 2) \arrow-head #Y #DOWN ##f}
+uparrow=\markup{ \combine \draw-line #'(0 . -2) \arrow-head #Y #UP ##f }
 %% The way to use the above definitions is like this:
 %%   \relative c' {
 %%     cis!4^\uparrow d4 e4 fis!4^\uparrow
