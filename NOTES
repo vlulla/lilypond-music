@@ -10,8 +10,8 @@
     \version "2.18.2"
     \header { }
     \book {
-      \score { 
-         ... compund music expression %%% ALL MUSIC GOES HERE 
+      \score {
+         ... compund music expression %%% ALL MUSIC GOES HERE
          \layout { } % how to layout music in pdf
          \midi { } % properties for midi output
       }
@@ -55,7 +55,7 @@
  7. Comments start with %.  Comment blocks are %{ ... %}
 
  8. In Lilypond lowercase letters a through g represent note names and are engraved
-    in the octave below middle C.  Hence it is customary to identify middle C with c' .  
+    in the octave below middle C.  Hence it is customary to identify middle C with c' .
     Also see, https://en.wikipedia.org/wiki/C_%28musical_note%29
 
  9. Some handy snippets
@@ -82,7 +82,7 @@
 
     If N is omitted after the colon it uses the last value.
 
-12. The name of variable must have *alphabetic characters ONLY*, no numbers, 
+12. The name of variable must have *alphabetic characters ONLY*, no numbers,
     underscores, or dashes.
 
     Variables must be defined *BEFORE* the main music expression.
@@ -93,7 +93,7 @@
     \set Timing.beamExceptions = #'() % sets beam(1 1 1)
 
     See "korean_folk_song_variants.ly" for example of this usage.
-    
+
 14. Set the property showLastLength = R1*8 to show just the last 8 measures when
     you're typesetting.  This makes it easier to compile and debug the process.
     See http://lilypond.org/doc/v2.18/Documentation/notation/skipping-corrected-music
@@ -105,13 +105,16 @@
     if there's a f-natural in the d-major key it makes sense to explicitly show the
     natural sign using either ! or ? .  Lilypond does this automatically but sometimes
     extra notation is needed to provide reminders to musicians, especially novices
-    like me!  
+    like me!
 
-    The differene between ! and ? is that the natural/sharp sign is adorned inside 
+    The differene between ! and ? is that the natural/sharp sign is adorned inside
     parenthesis when ? is used.
 
+    These are called accidentals.  See "Writing Pitches" in lilypond's "Notation reference"
+    manual.
+
 17. The letter 'I' is skipped for reherasal marks and this is in accordance with
-    engraving traditions!! 
+    engraving traditions!!
     http://lilypond.org/doc/v2.18/Documentation/notation/bars#rehearsal-marks
     To include 'I' in rehearsal marks use one of the following commands:
 
