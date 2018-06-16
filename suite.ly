@@ -34,7 +34,7 @@ voiceconsts = {
           a4.--(\f\downbow e8--) f4.--( e8--) |
           d4.\downbow c8\upbow b8.--( c16--) d8.--( e16--) | a,2 a4.--(\< b8--) |
           c4.\! b8 b4. a'16( gis16) | \mark\default\barNumberCheck #5
-          a4_\dim a4 r8. fis16\downbow g8.--( fis16--) |
+          a4_\dim e4 r8. fis16\downbow g8.--( fis16--) |
           g4 d4 r8. e16\p\downbow fis8.--( e16--) |
           f4 c4 r8. d16\downbow\cresc e8.--( f16--) |
           g4. f16( e16) d8( c16 b16) c8( b16 a16) | g2 c4.--( c8--) |
