@@ -51,21 +51,21 @@ voiceconsts = {
 
           %% \tempo "Allegro"
 
-          \cadenzaOn a,8\p-4( gis8) \cadenzaOff |
+          \partial 4 \cadenzaOn a,8\p-4( gis8) \cadenzaOff |
           a4-. b4-. c4-. d4-. | e2->-4 a,4-.( e'4-.) |
           a,4-. f'4-. e4-0-. d4-. | e2->-4 a,4-.( b4-.) | c4-.\< b4-. d4-. c4-. |
-          b8\> a8-. b8-. c8-.\! b4-. a8(-4 gis8) | \mark\default\barNumberCheck #29
+          b8\> a8-. b8-. c8-.\! b4-. a8(-4 gis8) | \mark\default\barNumberCheck #28
           a4-. b4-. c4-. d4-. | e2-> a,4-.( e'4-.) | a,4-. f'4-. e4-. d4-. |
           e2-> a,4-.( b4-.) | c4-.\< b4-. d4-. c4-. | b2.->\> c8(\mf b8) |
-          \mark\default\barNumberCheck #35
+          \mark\default\barNumberCheck #34
           c4-. e4-.-4 d4-. c4-. | d2-> g,4-.( g'4-.) |
           c,4-. e4-.-4 d4-. c4-. | d2-> g,4-. d'8-. e8-. |
-          \mark\default\barNumberCheck #39
+          \mark\default\barNumberCheck #38
           f4-.\cresc e4-. f4-. e4-. | f4( g8 a8) g2 | g8->( e8) d8( c8) c4-. b4-. |
-          c2.->\> e8-0(\p f8) | \mark\default\barNumberCheck #43
+          c2.->\> e8-0(\p f8) | \mark\default\barNumberCheck #42
           g4-. e4-. f4-. e4-. | f2-> d4-.( e4-.-4) | d4-.\< c4-. b4-. a4-. |
           b2->\> e,4-. \!a8-.\downbow_\markup{\italic "motto cresc."} bis8-. |
-          \mark\default\barNumberCheck #47
+          \mark\default\barNumberCheck #46
           a4-. b4-. c4-. d4-. | e2-> a4-. gis4-. |
           a4-.\upbow\f a,8-. b8-. c4-. d4-. | e2-4 d4-.( c4-.) |
           b4->_\markup{\italic "allarg"} a4-> b4-> gis4-> | a2.->-4\fermata
@@ -76,42 +76,42 @@ voiceconsts = {
            {
              e'4-.\downbow\f a,4-._\markup{\small "(2nd time p)"}( a'4-.) |
              f2-> e4-. | d4-. g,4-.( g'4-.) |
-             e2-> d4-. | \mark\default\barNumberCheck #57
+             e2-> d4-. | \mark\default\barNumberCheck #56
              c4-. a2-> | d4-. b2-> | e4-4 d8( c8) b8-. a8-. |
              gis2 r4
            }
           }
-          \mark\default\barNumberCheck #61
+          \mark\default\barNumberCheck #60
           b4-.\downbow\mf e4-.( e4-.) | cis2-> d4-. | e4-. a,4-.( g'4-.) |
-          f2-> e4-. | \mark\default\barNumberCheck #65
+          f2-> e4-. | \mark\default\barNumberCheck #64
           d4-. g4->(\cresc bes4) | cis,4-. f4->( a4-) | a,4-.\f d4-.( cis4-.) |
-          d2.\> | \mark\default\barNumberCheck #69
+          d2.\> | \mark\default\barNumberCheck #68
           a4-.\downbow\p d4-.( f4-.) | b,2->^"1H" c4-. | d4-. g,4-.( g'4-.) |
-          e2->\cresc d4-. | \mark\default\barNumberCheck #73
+          e2->\cresc d4-. | \mark\default\barNumberCheck #72
           c4-. a2-> | d4-. b2-> | e4---4\f d8( c8) b8-. c8-. |
           a2.->_\markup{\italic "Fine."} \bar"||"
-          \mark\default \barNumberCheck #77
+          \mark\default \barNumberCheck #76
           a8-.\downbow\p_\markup{\italic "lightly"} a8-. b8-. b8-. gis8-. gis8-. |
           a8-.-4 a,8-. c8-.-"3L" e8-. a8-. r8 |
           c8-.\downbow c8-. d8-. d8-. b8-. b8-. | c8-. c,8-. e8-. g8-. c8-. r8 |
-          \mark\default\barNumberCheck #81
+          \mark\default\barNumberCheck #80
           e8-. e8-. f8-. f8-. d8-. d8-. | e8-.-4 e8-. d8-. d8-. c8-. c8-. |
-          b4\< a8-4( gis8) a8-. b8-. | gis2 r4 | \mark\default\barNumberCheck #85
+          b4\< a8-4( gis8) a8-. b8-. | gis2 r4 | \mark\default\barNumberCheck #84
           g8\downbow\mf g8 c8 c8 e,8 e8 | d8 d8 g8 b8 d8 r8 |
           g,8-.\p g8-. c8-. c8-. e,8-. e8-. | d8-. d8-. g8-. b8-. d8-. r8 |
-          \mark\default\barNumberCheck #89
+          \mark\default\barNumberCheck #88
           e8-.-4\downbow e8-. c8-. c8-. a8-.-4 a8-. |
           f8( e8 f8) d'8-. e,8-. c'8-. |
           d,8(\< e8 d8) c'8-. g8-. b8-. | c4\mf r4 r4 |
-          \mark\default\barNumberCheck #93
+          \mark\default\barNumberCheck #92
           a8-.\pp a8-. b8-. b8-. gis8-. gis8-. |
           a8-.-4 a,8-. c8-.-"3L" e8-. a8-.-4 r8 |
           c8-.\downbow c8-. d8-. d8-. b8-. b8-. |
-          c8-. c,8-. e8-. g8-. c8-. r8 |\mark\default\barNumberCheck #97
+          c8-. c,8-. e8-. g8-. c8-. r8 |\mark\default\barNumberCheck #96
           e8-.-0\downbow\cresc e8-. f8-. f8-. d8-. d8-. |
           e8-. e8-. d8-. d8-. c8-. c8-. |
           b8-. b8-. a8-.\< a'8-. e8-._\markup{\italic "rit."} gis8-. |
-          a8-.\> a,8-. c8-._\markup{D. S. \musicglyph #"scripts.segno" al Fine} e8-. \!a-8-. r8 \bar "||"
+          a8-.\> a,8-. c8-._\markup{D. S. \musicglyph #"scripts.segno" al Fine} e8-. \!a-. r8 \bar "||"
 
           \bar"|."
         }
