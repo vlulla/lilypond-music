@@ -84,7 +84,7 @@ voiceconsts = {
           g8 c,8 r8 g'8 a16 b16 a16 b16 a16 b16 a16 b16 |\mark\default
           \barNumberCheck #40
           a8 f8 d8 b8 g'16 a16 g16 a16 g16 a16 g16 a16 |
-          e8 e8 c8 a8 f'16 g16 f16 g16 f16 g16 f16 g16 |
+          g8 e8 c8 a8 f'16 g16 f16 g16 f16 g16 f16 g16 |
           f8 d8 b8 g8 e'16 d16 c16 b16 a16 g16 f16 e16 |
           g'16 f16 e16 d16 c16 b16 a16 g16 a'16 g16 f16 e16 d16 c16 b16 a16|
           a'8 a,8 r8 a'8\upbow a16 c16 c16 fis,16 fis16 a16 a16 dis,16 |
@@ -132,12 +132,12 @@ voiceconsts = {
           e16( f16) e8 r8 e8 e16( f16) e8 r8 e8 |
           \mark\default\barNumberCheck #80
           e16( f16) e8 r8 e8 f16 g16 f16 g16 f16 g16 f16 g16 |
-          f8 d8 b8 b8 e16 f16 e16 f16 e16 f16 e16 f16 |
+          f8 d8 b8 g8 e'16 f16 e16 f16 e16 f16 e16 f16 |
           e8 c8 a8 f8 d'16 e16 d16 e16 d16 e16 d16 e16 |
           d8 b8 gis8 e8 c'8 a8 r8 e'8 |
           f8( bes,8) f'8( bes,8) e8( bes8) e8( bes8) |
           \mark\default\barNumberCheck #85
-          e8( a,8) e'8( a,8) gis8 f8 a8 c,8 |
+          e8( a,8) e'8( a,8) gis8 e8 a8 c,8 |
           b8 a'8 b,8 gis'8 a,8 a'8 a16( b16)  a8 |
           r8 b8\upbow b16( c16) b8 r8 c8 c16( d16) c8 |
           r8 d8\upbow d16( e16) d8 e4( e16) d16 e16 f16 |
@@ -145,7 +145,7 @@ voiceconsts = {
           \mark\default\barNumberCheck #90
           a4 r8 e'8\upbow\f f8( bes,8) f'8( bes,8) |
           e8( bes8) e8( bes8) e8( a,8) e'8( a,8) |
-          gis8 f8 a8 c,8 b8 a'8 b,8 gis'8 | a1\fermata
+          gis8 e8 a8 c,8 b8 a'8 b,8 gis'8 | a1\fermata
           \bar"|."
         }
       }
