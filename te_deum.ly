@@ -33,7 +33,7 @@ voiceconsts = {
           \voiceconsts
           %% \set Score.markFormatter = #format-mark-circle-numbers
           \time 4/4 \clef treble
-          \partial 4 g'4 \upbow | c4 c8 d8 e4 c4 | g'2\prall e4. e8 |
+          \partial 4 g'4\f \upbow | c4 c8 d8 e4 c4 | g'2\prall e4. e8 |
           f4 g8 f8 e8 f8 g4 | d8 c8 d8 e8 d4 g,4 | c4 c8 d8 e4 c4 |
           \barNumberCheck #6 g'2 e4. e8 | f8 g8 e8 f8 d4. c8 |
           c2. g4 | c4 c8 d8 e4 c4 | g'2 e4. e8 | f4 g8 f8 e8 f8 g4 |
