@@ -7,6 +7,7 @@
 }
 
 #(set-global-staff-size 18)
+pocoriten = _\markup{\italic "poco riten."}
 
 \layout {
   indent = #0
@@ -15,6 +16,7 @@
       \override BarNumber.break-visibility = ##(#f #t #t)
       \override MultiMeasureRest.expand-limit = #1
       %% \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/12)
+      \override DynamicTextSpanner.style = #'none
   }
 }
 
@@ -89,7 +91,7 @@ voiceconsts = {
           c8( a16 bes16) c8( f8) bes,8( a8 g8) c8-- |
           c8( a16 bes16) c8( f8) bes,8( a8 g8) c8-- |
           f8(\< a16 g16) f8( c8) d8 d16( cis16 d8) e16-- f16-- |
-          a,8--\f g16--_\markup{\italic "poco riten."} f16-- g8--^1 e'8-- f4( f8) r4
+          a,8--\f g16--\pocoriten f16-- g8--^1 e'8-- f4( f8) r4
           \bar"|."
         }
       }
