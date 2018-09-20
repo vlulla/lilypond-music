@@ -60,7 +60,7 @@ voiceconsts = {
           \barNumberCheck #17
           bes,!8^1(\p a8\<) bes8( g'8^4\!) bes,8( a16 g16\>) a8( c8\!) |
           ees8( c8^2) a8(\< ees'8\!) ees8( d16\> c16) d8--(\! d8--^1) |
-          bes8( f'8)\cresc e8--( d8--) a8-0( g'8-4) f8--( e8--) |
+          bes8( f'8)\cresc e?8--( d8--) a8-0( g'8-4) f8--( e8--) |
           a8-0( cis,8-2) d8--^1 f8-- e4.(\> a,8-0\!) |
           \barNumberCheck #21
           bes8-3( a8\<) gis8-- a8--\! g'!8( e8\> cis8 a8) |
