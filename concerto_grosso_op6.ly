@@ -70,7 +70,7 @@ voiceconsts = {
           \barNumberCheck #48 d1.)( | d2.)( d8) c8 b8 c4. |
           c8( b8 a8) b2( b8) e,8 a4.( | a4) d,8 g2. fis4. | g4. g4.\f g2. |
           \barNumberCheck #53 g2. g2. | g2. g2. | fis4. g4.\mf g4. r4 fis8 |
-          g4. r4. a4.\mp r4. | b1 r4.
+          g4. r4. a4.\mp r4. | b4. r4. r2.
           \bar"|."
         }
       }
