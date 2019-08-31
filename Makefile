@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-LILYPOND = /Users/vijay/Applications/Lilypond.app/Contents/Resources/bin/lilypond
+LILYPOND = $(shell which lilypond)
 
 all:
 
