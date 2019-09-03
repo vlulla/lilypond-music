@@ -19,7 +19,7 @@ voiceconsts = {
   \key c \major
   \numericTimeSignature
   \compressFullBarRests
-  \tempo "<<<TEMPO HERE>>>" 4 = 60
+  %% \tempo "<<<TEMPO HERE>>>" 4 = 60
 }
 
 %% showLastLength = R1*8 %% last few measures %% Comment to typeset whole score!
