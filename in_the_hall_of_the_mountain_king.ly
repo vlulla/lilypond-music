@@ -46,8 +46,9 @@ voiceconsts = {
           a,8\mf(^"poco a poco accel." b8 c8\< d8) e8( c8 e8 a8) |
           gis8( e8 gis8 b8) a2\! | r4\f \grace gis16( a4-.->) r2 | \barNumberCheck #18
           r4\f \grace gis16( a4-.->) r2 | a,8\mf( b8 c8\< d8) e8( c8 e8 a8) |
-          gis8( e8 gis8 b8) a2 | r4 \grace gis16( a4-.-> \f) r2 | r4 \grace gis16( a4-.->\f) r2 |
-          r4 \grace gis16( a4-.->) r2 | r4\ff \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) |
+          gis8( e8 gis8 b8)\! a2 | r4 \grace gis16( a4-.-> \f) r2 | r4 \grace gis16( a4-.->\f) r2 |
+          %% r4 \grace gis16( a4-.->) r2 |
+          r4^"Presto"\ff \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) |
           \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) |
           r2 a,,8 a8\< a8 a8 | a8 a8 a8 a8 a8 a8 a8 a8 | a4\! \grace gis''16( a4-.->) r2 \bar "|."
 	}
