@@ -133,3 +133,7 @@
     \set Score.markFormatter = #format-mark-barnumbers
     \set Score.markFormatter = #format-mark-box-barnumbers
     \set Score.markFormatter = #format-mark-circle-barnumbers
+
+20. It is a good idea to use bar checks (using symbol | ) in lilypond files.  Additionally,
+    \barNumberCheck should be used when transcribing music from some original.  A warning will
+    be generated if the currentBarNumber does not match the bar number mentioned in \barNumberCheck.
