@@ -42,14 +42,14 @@ voiceconsts = {
           \barNumberCheck #9
           a8 b8 c8 d8 e8 c8 e4 | dis8( b8) dis4 d8( bes8) d4 | a8( b8 c8 d8) e8( c8 e8 a8) |
           g8( e8 c8 e8) g2 | \barNumberCheck #13
-          r4\f \grace gis16( a4-.->) r2 | r4 \grace gis16( a4-.->) r2 |
+          r4\f \acciaccatura gis8( a4-.->) r2 | r4 \acciaccatura gis8( a4-.->) r2 |
           a,8\mf(^"poco a poco accel." b8 c8\< d8) e8( c8 e8 a8) |
-          gis8( e8 gis8 b8) a2\! | r4\f \grace gis16( a4-.->) r2 | \barNumberCheck #18
-          r4\f \grace gis16( a4-.->) r2 | a,8\mf( b8 c8\< d8) e8( c8 e8 a8) |
-          gis8( e8 gis8 b8)\! a2 | r4 \grace gis16( a4-.-> \f) r2 | r4 \grace gis16( a4-.->\f) r2 |
-          %% r4 \grace gis16( a4-.->) r2 |
-          r4^"Presto"\ff \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) |
-          \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) \grace gis16( a4->) |
+          gis8( e8 gis8 b8) a2\! | r4\f \acciaccatura gis8( a4-.->) r2 | \barNumberCheck #18
+          r4\f \acciaccatura gis8( a4-.->) r2 | a,8\mf( b8 c8\< d8) e8( c8 e8 a8) |
+          gis8( e8 gis8 b8)\! a2 | r4 \acciaccatura gis8( a4-.-> \f) r2 | r4 \acciaccatura gis8( a4-.->\f) r2 |
+          %% r4 \acciaccatura gis8( a4-.->) r2 |
+          r4^"Presto"\ff \acciaccatura gis8( a4->) \acciaccatura gis8( a4->) \acciaccatura gis8( a4->) |
+          \acciaccatura gis8( a4->) \acciaccatura gis8( a4->) \acciaccatura gis8( a4->) \acciaccatura gis8( a4->) |
           r2 a,,8 a8\< a8 a8 | a8 a8 a8 a8 a8 a8 a8 a8 | a4\! \grace gis''16( a4-.->) r2 \bar "|."
 	}
       }
