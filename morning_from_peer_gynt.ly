@@ -42,8 +42,8 @@ voiceconsts = {
           fis'8( dis8 cis8) b8( cis8 dis8) | R1*6/8 | fis8( dis8 b8) r4. |
           r4. fis'8( dis8 b8) | b'8( gis8 fis8) e8( fis8 gis8) |
           b8( gis8 fis8 e8) fis16( gis16 fis16 gis16) |
-          b8(\< gis8 b8) cis8( gis8 cis8) | cis8(\f a gis8) fis4. |
-          cis8( a8 gis8) fis8( gis8 a8) | cis8( a8 gis8 fis8) gis16( a16 gis16 a16) |
+          b8(\<^"III" gis8 b8) cis8( gis8 cis8) | cis8(\f a gis8) fis4. |
+          cis8(^"I" a8 gis8) fis8( gis8 a8) | cis8( a8 gis8 fis8) gis16( a16 gis16 a16) |
           \barNumberCheck #23
           cis8( a8 cis8) dis8( a8 dis8) | dis8( b8 dis8) e8( b8 e8) |
           e8( cis8 e8) fis8 cis8 fis8 | gis2. | gis4.\p fis4. | e4. fis4. |
