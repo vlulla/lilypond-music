@@ -34,10 +34,10 @@ voiceconsts = {
           %% \set Score.markFormatter = #format-mark-circle-numbers
           \time 6/8 \clef treble
           d8\mp( b8 a8) g8( a8 b8) | d8( b8 a8 g8) a16( b16 a16 b16) |
-          d8( b8 d8) (e8 b8 e8) | d8( b8 a8) g4. | g2.( | g2.) |
+          d8( b8 d8) e8( b8 e8) | d8( b8 a8) g4. | g2.( | g2.) |
           g4. g4. | fis2. | fis'8( dis8 cis8) b8( cis8 dis8) |
           fis8( dis8 cis8 b8) cis16( dis16 cis16 dis16) |
-          fis8( dis8 fis8) g8( dis8 gis8) | fis8( dis8 cis8) b4. |
+          fis8( dis8 fis8) g8( dis8 g8) | fis8( dis8 cis8) b4. |
           \barNumberCheck #13
           fis'8( dis8 cis8) b8( cis8 dis8) | R1*6/8 | fis8( dis8 b8) r4. |
           r4. fis'8( dis8 b8) | b'8( gis8 fis8) e8( fis8 gis8) |
