@@ -63,8 +63,8 @@ voiceconsts = {
           g4 r4 r4 | r4 g,8(\pp fis8 g8 b8) | e2.( | e4) fis8( e8 fis8 a8 |
           g4) g8( fis8 g8 b8 | e,4) e,8( dis8 e8 g8 | \barNumberCheck #94
           b4) g'8( fis8 g8 b8 | e,4) e,8( dis8 e8 g8 | d'!8) cis,8( d!8 g8 b8) fis8( |
-          g8 b8 d8) ais8( b8 d8 | \barNumberCheck #98 g8) cis,8( d8 g8 b8) e,8( |
-          g8 b8 d8) cis,8( d8 e8 | g4) r4 r4 | b,4 r4 r4 | g4\downbow r4
+          g8 b8 d8) ais8( b8 d8 | \barNumberCheck #98 g8) cis,8( d8 g8 b8) fis8(^"III" |
+          g8 b8 d8) cis,8(^"I" d8 fis8 | g4) r4 r4 | b,4 r4 r4 | g4\downbow r4
           r4\fermata \bar"|."
         }
       }
