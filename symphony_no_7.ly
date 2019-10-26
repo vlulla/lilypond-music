@@ -48,8 +48,8 @@ voiceconsts = {
           gis16( a16 b8~ b8 a16 gis16) | fis8 fis16( gis16) a8 a16( b16) |
           \mark\default \barNumberCheck #43
           cis2 | bis2 | b8( gis16 ais16) b8( cis16 b16) | b8( ais?8) a4 | a2 |
-          gis4 a4 | gis16( a16 b8~ b8 a16 gis16) | fis4  r4 | cis4 dis8 eis8 | fis2 |
-          b4 b8 b8 | a4 r4 | cis4\<^"rit." dis8 eis8| dis8\f\> eis8 fis4( | fis2) \! \bar "|."
+          gis4 a4 | gis16( a16 b8~ b8 a16 gis16) | fis4  r4 | cis'4 dis8 eis8 | fis2 |
+          b,4 b8 b8 | a4 r4 | cis4\<^"rit." dis8 eis8| dis8\f\> eis8 fis4( | fis2) \! \bar "|."
 	}
       }
     }
