@@ -36,8 +36,8 @@
           \Score
           %% \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/70)
           %% \override SpacingSpanner.uniform-stretching = ##t
-          \override Score.BarNumber #'break-visibility = #end-of-line-invisible
-          \override Score.BarNumber #'Y-offset = #-4.0 % bar number below staff!
+          \override Score.BarNumber.break-visibility = #end-of-line-invisible
+          \override Score.BarNumber.Y-offset = #-4.0 % bar number below staff!
       }
     }
 }
