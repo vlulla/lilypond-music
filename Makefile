@@ -4,6 +4,7 @@
 .DELETE_ON_ERROR:
 .ONESHELL:
 SHELL := bash
+.RECIPEPREFIX = >
 
 LILYPOND = $(shell which lilypond)
 OPTIONS = --silent
@@ -13,9 +14,9 @@ OPTIONS = --silent
 all: $(patsubst %.ly,%.pdf,$(wildcard *.ly))
 
 %.pdf: %.ly
-	$(LILYPOND) $(OPTIONS) $<
+> $(LILYPOND) $(OPTIONS) $<
 
 ## clean: $(abspath $(wildcard *.pdf))
 ## 	rm -rf $^
 clean: $(wildcard *.pdf)
-	@rm -rf $^
+> @rm -rf $^
