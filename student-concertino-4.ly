@@ -91,7 +91,7 @@ voiceconsts = {
           cis8-- a-- <a a'>-- <a g'>-- <a fis'>-- d-- a-- d-- | \barNumberCheck #105
           b16(\mf d16) g-. a-. b4--->^\markup{\italic ten.} a,16( d) fis-. g-. a4--->^\markup{\italic ten.} |
           g16( fis) e-.-0 d-. cis16( a) b-. cis-. d8-. a-. fis-. d-. |
-          <d c'>8\f\upbow <d b'>16( <d c'>) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' g'> <d, b'> <b' g'> |
+          <d c'>8\f\downbow <d b'>16( <d c'>) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' g'> <d, b'> <b' g'> |
           \barNumberCheck #108
           <d, c'>8-. <d b'>16( <d c'>16) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' b'>-. <d, b'>-. <b' g'>-. |
           c16(\mf e)-0 gis-. a-. b8(-> a) b,16( d) fis-. g-. a8(-> g) | \barNumberCheck #110
