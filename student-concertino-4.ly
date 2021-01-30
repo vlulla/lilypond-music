@@ -47,7 +47,7 @@ voiceconsts = {
           b8-- b16-. c16-. d8-. e8-.-4 d8-- b16-. c16-. d8-. g8-. |
           fis8-- fis16( a) g-. fis-. e-.-0 d-. cis-. b-. a-. b-. cis-. d-. e-.-0 fis-. |
           d8-- fis16(\p g) a-. g-. fis-. e-.-0 d8-- fis,16\f( g) a---4 g-- fis-- e-- |\barNumberCheck #35
-          d8-- g'16(\p a) b-. a-. g-. fis-. e8---4 g,16(\f a-0) g-- a---0 g-- fis-- |
+          d8-- g'16(\p a) b-. a-. g-. fis-. e8---4 g,16(\f a-0) b-- a---0 g-- fis-- |
           e8-- e'16-0( fis)\< g-. fis-. e-.-0 d-. cis-. b-. a-. b-. cis-.\! d-. e-.-0 fis-. |
           g16-. a-. b-. a-. g-.\> fis-. e-.-4 d-. cis-. b-. a-. b-.\! cis-. d-. e-.-0 fis-. |
           d8-- fis16-(\p g16) a-. g-. fis-. e-.-0 d8-- fis,16(\f g) a---4 g-- fis-- e-- |
