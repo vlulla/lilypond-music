@@ -93,7 +93,7 @@ voiceconsts = {
           g16( fis) e-.-0 d-. cis16( a) b-. cis-. d8-. a-. fis-. d-. |
           <d c'>8\f\downbow <d b'>16( <d c'>) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' g'> <d, b'> <b' g'> |
           \barNumberCheck #108
-          <d, c'>8-. <d b'>16( <d c'>16) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' b'>-. <d, b'>-. <b' g'>-. |
+          <d, c'>8-. <d b'>16( <d c'>16) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' b'>-. <d, b'>-. <b' b'>-. |
           c16(\mf e)-0 gis-. a-. b8(-> a) b,16( d) fis-. g-. a8(-> g) | \barNumberCheck #110
           fis16-. d-. cis-. d-. e-.-4 d-. c-. a-. b8( e)-4 d8( cis) |
           <d, c'!>8-.\f <d b'>16( <d c'>) <d d'>-. <d c'>-. <d b'>-. <d a'>-. <d b'>8-. <b' g'>-. <d, b'>-. <b' g'>-. |
