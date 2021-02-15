@@ -18,7 +18,7 @@
 voiceconsts = {
   \key g \major
   \numericTimeSignature
-  \compressFullBarRests
+  \compressEmptyMeasures
   \tempo "Allegro Moderato"
 }
 
