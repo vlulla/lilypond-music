@@ -6,8 +6,8 @@
 SHELL := bash
 .RECIPEPREFIX = >
 
-LILYPOND = $(shell which lilypond)
-OPTIONS = --silent
+LILYPOND ?= $(shell which lilypond)
+OPTIONS ?= --silent
 
 ## all: $(patsubst %.ly,%.pdf,$(realpath $(wildcard *.ly)))
 ## all: $(patsubst %.ly,%.pdf,$(realpath $(shell ls *.ly)))
